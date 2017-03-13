@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.none {
+  display: none;
+}
+.boxAuto {
+  width: 600px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.line {
+  color: #e74dff;
+  text-align: center;
+}
+.inputBox {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+}
+.inputBox span {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+}
+.inputBox input {
+  width: 220px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 16px;
+}
+.inputBox input:focus {
+  border: 1px solid #2c9dff;
+  box-shadow: 0px 0px 2px 2px #2c9dff;
+}
+.tagList li {
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+  background-color: #08dfff;
+  color: #fff;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.textBox {
+  width: 300px;
+  margin: 20px auto;
+}
+.textBox textarea {
+  width: 220px;
+  margin: 10px auto;
+  display: block;
+}
+.textBox .button {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px auto;
+  border: 1px #ccc solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.hobbyList li {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+  background-color: #ffa450;
+  color: #fff;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
