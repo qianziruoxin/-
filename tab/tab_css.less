@@ -1,0 +1,62 @@
+body{
+  font-family: "微软雅黑";
+  div{
+    box-sizing: border-box;
+  }
+  ul li{
+    list-style-type: none;
+  }
+}
+.tabBox{
+  width: 400px;
+  height:300px;
+  overflow: hidden;
+  border:1px solid #333;
+  .tabTitle{
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    color: #333;
+    border-bottom:1px solid #333;
+    line-height: 50px;
+    padding-left: 20px;
+  }
+  .none{
+    display: none;
+  }
+  ul.tabList{
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0;
+    background-color: #efff08;
+    margin:0;
+    border-bottom: 1px solid #333;
+    li{
+      width: 25%;
+      box-sizing: border-box;
+      height:100%;
+      float: left;
+      text-align: center;
+      &.otherLi{
+        border-left: 1px solid #000;
+      }
+      &:hover{
+        background-color: aqua;
+        font-weight: bold;
+        color: #e74dff;
+        cursor: pointer;
+      }
+      &.on{
+        background-color: aqua;
+        font-weight: bold;
+        color: #ff100a;
+      }
+    }
+  }
+  div.liBox{
+    font-size: 16px;
+    padding: 20px;
+  }
+}
